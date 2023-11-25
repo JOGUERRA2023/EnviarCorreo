@@ -33,7 +33,7 @@ $mailer = new PHPMailer();
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
     $mailer->Username = 'ejemplo2024@gmail.com';
-    $mailer->Password = '#hsyys';
+    $mailer->Password = '';
     $mailer->SMTPSecure = 'tls'; 
     $mailer->Port = 587; 
 
